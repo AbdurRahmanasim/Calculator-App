@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100vw;
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputt>input{
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    text-align: right;
+    border: 5px solid #ED1358;
+    border-radius: 13px;
+}
+.inputt>input:focus{
+    border-radius: 13px;
+    border: 5px solid black;
+}
+.maincont{
+    text-align: center;
+    width: 500px;
+}
+.btns1{
+    width: 100%;
+}
+
+.bttn{
+    padding: 3px;
+    line-height: 40px;
+}
+.btns1>.btnsa{
+    width: 121px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px; 
+    color: white;  
+}
+.btns1>.btnsa:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+
+.btns1>.btnsb{
+    width: 121px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;   
+    color: white;
+}
+.btns1>.btnsb:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+
+.btns1>.btnsc{
+    width: 242px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;   
+    color: white;
+}
+.btns1>.btnsc:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns2>.btnsp{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;  
+    color: white; 
+}
+.btns2>.btnsp:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns2>.btnsq{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;   
+    color: white;
+}
+.btns2>.btnsq:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns2>.btnsr{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;  
+    color: white; 
+}
+.btns2>.btnsr:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns2>.btnss{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px; 
+    color: white;  
+}
+.btns2>.btnss:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns3>.btnsx{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;   
+    color: white;
+}
+.btns3>.btnsx:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns3>.btnsy{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;   
+    color: white;
+}
+.btns3>.btnsy:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns3>.btnsz{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px; 
+    color: white;  
+}
+.btns3>.btnsz:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns3>.btnsz1{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px; 
+    color: white;  
+}
+.btns3>.btnsz1:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns4>.btnsi{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;  
+    color: white;
+}
+.btns4>.btnsi:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns4>.btnsj{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px; 
+    color: white;
+     
+}
+.btns4>.btnsj:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns4>.btnsk{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;  
+    color: white;
+    
+}
+.btns4>.btnsk:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns4>.btnsl{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;  
+    color: white;
+}
+.btns4>.btnsl:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns5>.btnsm{
+    width: 121px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;  
+    color: white;
+}
+.btns5>.btnsm:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns5>.btnsn{
+    width: 121px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;  
+    color: white;
+}
+.btns5>.btnsn:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
+.btns5>.btnso{
+    width: 242px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ED1358;
+    font-size: 20px;  
+    color: white;
+}
+.btns5>.btnso:hover{
+    background-color: #F06CBB;
+    color: black;
+    cursor: pointer;
+}
